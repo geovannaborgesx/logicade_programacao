@@ -1,0 +1,112 @@
+let usuario = prompt("Digite seu nome de usuário:")
+while (!usuario || usuario === " ") {
+  usuario = prompt("Digite seu nome de usuário: ")
+}
+
+// Exercício 2 - Cadastro de senha e confirmação
+let senha = prompt("Crie sua senha:")
+while (!senha) {
+  senha = prompt("Senha inválida. Crie sua senha:")
+}
+let confirma = prompt("Confirme sua senha:")
+while (confirma !== senha) {
+  confirma = prompt("Senha incorreta. Confirme novamente:")
+}
+
+// Exercício 3 - Login fixo com admin/1234
+let loginUser = prompt("Login - usuário:")
+let loginSenha = prompt("Login - senha:")
+while (loginUser !== "admin" || loginSenha !== "1234") {
+  loginUser = prompt("Login - usuário:")
+  loginSenha = prompt("Login - senha:")
+}
+console.log("Login correto!")
+
+// Exercício 4 - Repetição de login com admin/1234
+loginUser = prompt("Usuário:")
+loginSenha = prompt("Senha:")
+while (loginUser !== "admin" || loginSenha !== "1234") {
+  console.log("Usuário ou senha incorretos.")
+  loginUser = prompt("Usuário:")
+  loginSenha = prompt("Senha:")
+}
+console.log("Bem-vindo!")
+
+// Exercício 5 - Tentativa de login com limite de 3 chances
+let tentativas = 0
+let logado = false
+while (tentativas < 3 && !logado) {
+  loginUser = prompt("Usuário:")
+  loginSenha = prompt("Senha:")
+  while (loginUser === "admin" && loginSenha === "1234") {
+    logado = true
+    break
+  }
+  if (!logado) {
+    console.log("Usuário ou senha incorretos.")
+    tentativas++
+  }
+}
+while (!logado && tentativas === 3) {
+  console.log("Acesso bloqueado.")
+  break;
+}
+if (logado) {
+  console.log("Bem-vindo!")
+}
+
+// Exercício 6 - Cadastro de novo usuário
+let cadastroUsuario = prompt("Cadastre seu usuário:")
+while (!cadastroUsuario || cadastroUsuario === " ") {
+  cadastroUsuario = prompt("Usuário inválido. Cadastre novamente:")
+}
+let cadastroSenha = prompt("Cadastre sua senha:")
+while (!cadastroSenha) {
+  cadastroSenha = prompt("Senha inválida. Cadastre novamente:")
+}
+
+// Exercício 7 - Login com novo cadastro
+loginUser = prompt("Login - usuário:")
+loginSenha = prompt("Login - senha:")
+while (loginUser !== cadastroUsuario || loginSenha !== cadastroSenha) {
+  console.log("Usuário ou senha incorretos.")
+  loginUser = prompt("Login - usuário:")
+  loginSenha = prompt("Login - senha:")
+}
+console.log("Login realizado!")
+
+// Exercício 8 - Login com "Esqueci minha senha"
+loginUser = prompt("Usuário:")
+loginSenha = prompt("Senha:")
+while (loginUser !== cadastroUsuario || loginSenha !== cadastroSenha) {
+  console.log("Usuário ou senha incorretos.")
+  let esqueceu = prompt("Esqueceu a senha? (sim/não)")
+  while (esqueceu !== "sim" && esqueceu !== "não") {
+    esqueceu = prompt("Responda apenas 'sim' ou 'não'")
+  }
+  while (esqueceu === "sim") {
+    console.log("Sua senha é: " + cadastroSenha)
+    break
+  }
+  loginUser = prompt("Usuário:")
+  loginSenha = prompt("Senha:")
+}
+console.log("Login realizado!")
+
+// Exercício 9 - Login normal com cadastro (sem "esqueci")
+loginUser = prompt("Usuário:")
+loginSenha = prompt("Senha:")
+while (loginUser !== cadastroUsuario || loginSenha !== cadastroSenha) {
+  console.log("Usuário ou senha incorretos.")
+  loginUser = prompt("Usuário:")
+  loginSenha = prompt("Senha:")
+}
+console.log("Você está logado!")
+
+// Exercício 10 - Logout
+let comando = prompt("Digite 'sair' para fazer logout:")
+while (comando !== "sair") {
+  comando = prompt("Digite sair para fazer logout:")
+}
+console.log("Você foi deslogado.")
+
