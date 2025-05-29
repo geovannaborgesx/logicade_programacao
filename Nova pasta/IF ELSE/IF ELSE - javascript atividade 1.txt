@@ -1,0 +1,116 @@
+/*let idade = 20
+if (idade >="18"){
+    console.log("maior de idade")
+}
+if (idade <="18"){
+    console.log("menor de idade")*/
+
+/*let hora = 7
+if (hora >=6 && hora < 12){
+    console.log("bom dia")
+} else if (hora >= 12 && hora <18){
+    console.log("boa tarde")
+}
+else{
+    console.log("boa noite")*/
+
+/*let idade = 18
+if (idade >= 16){
+console.log("pode entrar no evento")
+} else {
+    console.log("não pode entrar no evento")}*/
+    
+/*let numero1 = 55
+let numero2 = 10
+if (numero1 > numero2) {
+    console.log("O maior número é " + numero1);
+} else {
+    console.log("O maior número é " + numero2);*/
+
+/*let temperatura = 25;
+if (temperatura < 15) {
+    console.log("Frio");
+} else if (temperatura <= 25) {
+    console.log("Térmico");
+} else {
+    console.log("Quente");*/
+    
+ /*let palavra = "Felicidade";
+if (palavra === "Felicidade") {
+    console.log("Palavra correta");
+} else {
+    console.log("Palavra incorreta");}*/
+    
+/*let moedas = 15;
+if (moedas < 10) {
+    console.log("Poucas moedas");
+} else if (moedas <= 20) {
+    console.log("Quantidade média");
+} else {
+    console.log("Muitas moedas");}*/
+    
+ /*let temp = 32;
+if (temp > 30) { // Corrigido para usar "temp" em vez de "temperatura"
+    console.log("Muito quente");
+} else if (temp >= 20) {
+    console.log("Calor");
+} else {
+    console.log("Frio");}*/
+    
+/*let numero = -5;
+if (numero >= 0) {
+    console.log("Número positivo");
+} else {
+    console.log("Número negativo");
+}*/
+
+/*let nota = 8;
+if (nota >= 7) {
+    console.log("Aprovado");
+} else {
+    console.log("Reprovado");
+}*/
+
+/*let animal = "Gato";
+if (animal === "Cachorro" || animal === "Gato" || animal === "Pássaro") {
+    console.log("Animal listado");
+} else {
+    console.log("Animal não listado");
+}*/
+
+/*let diaSemana = "Sábado";
+if (diaSemana === "Sábado" || diaSemana === "Domingo") {
+    console.log("Fim de semana");
+} else {
+    console.log("Dia útil");
+}*/
+
+/*let experiencia = 3;
+if (experiencia > 2) {
+    console.log("Experiente");
+} else {
+    console.log("Iniciante");
+}*/
+
+/*let valor = 15;
+if (valor >= 10 && valor <= 20) { // Corrigido para usar "valor" em vez de "numero"
+    console.log("Dentro do intervalo");
+} else {
+    console.log("Fora do intervalo");
+}*/
+
+/*let idadeCNH = 17; // Corrigido nome da variável
+if (idadeCNH >= 18) {
+    console.log("Pode tirar a carteira de motorista");
+} else {
+    console.log("Não pode tirar a carteira de motorista");
+}*/
+
+/*let num = 0;
+if (num > 0) { // Corrigido para usar "num" em vez de "numero"
+    console.log("Positivo");
+} else if (num < 0) {
+    console.log("Negativo");
+} else {
+    console.log("Zero");
+}*/

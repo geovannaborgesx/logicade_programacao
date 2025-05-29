@@ -1,0 +1,38 @@
+let idade prompt("Digite sua idade")
+let categoria 20
+if (idade 60) (
+categoria "idosa":
+Jelse if (idade 18 idade 60) {
+categoria adulto";
+Jelse if (idade 12 idade 18)( categoria "adolescente";}
+else if (idade 12) (
+categoria "criança":
+Jelse { idade "invalida"
+categoria "invalida")
+console.log("idade finalidade)
+console.log("categoria categoria)
+Digite sua idade20 idade final:20
+categoriaadulto
+Code Execution Successful-
+let idade prompt("Digite sua idade")
+let categoria 16 1
+if (idade 18 88 idade 70){
+console.log("voto obrigatorio.")
+1-) else if (idade 16 88 idade 18 idade 70) {
+console.log("voto facultativo.")
+Jelse if (idade 16)"){
+console.log("voce nao vota ainda.");
+1-jeise (
+console.log("idade invalida")
+Digite sua idade17 voto facultativo.
+Code Execution Successful
+Digite seu numero3 positivo
+Code Execution Successful
+let numero Number (prompt("Digite seu numero"))
+if (numero 0){
+console.log("positivo")
+Jelse if (numero= 0){ console.log("zero");
+}else if (numero 0) {
+console.log("zero");
+Jelse (
+console.log("numero invalido"

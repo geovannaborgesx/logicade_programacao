@@ -1,0 +1,24 @@
+let nome = prompt(&quot;Digite seu nome&quot;)
+let idade = Number(prompt(&quot;Digite sua idade&quot;))
+let email = prompt(&quot;Digite seu email&quot;)
+let telefone = Number(prompt(&quot;Digite seu telefone&quot;))
+console.log(&quot;o seu nome é ?&quot;, nome,&quot;sua idade é ?&quot;, idade,&quot;anos, seu email é ?&quot;, email,&quot;seu
+telefone é ?&quot;, telefone,&quot;numero, seja bem vindo ao nosso site!&quot;)
+
+/*let nome = prompt(&quot;Digite seu nome&quot;)
+let idade = Number(prompt(&quot;Digite sua idade&quot;))
+let email = prompt(&quot;Digite seu email&quot;)
+let telefone = Number(prompt(&quot;Digite seu telefone&quot;))
+console.log(&quot;o seu nome é ?&quot;, nome,&quot;sua idade é ?&quot;, idade,&quot;anos, seu email é ?&quot;, email,&quot;seu
+telefone é ?&quot;, telefone,&quot;numero, seja bem vindo ao nosso site!&quot;)*/
+
+segunda atividade
+let anoDeNascimento =Number(prompt(&quot;Digite o seu ano de nascimento:&quot;))
+let subtracao = 2025 - anoDeNascimento
+console.log (&quot;A sua idade é:&quot;subtracao)
+
+let nome =prompt(&quot;Digite seu nome&quot;)
+let vsco =prompt(&quot;Digite seu vsco&quot;)
+let instagram =prompt(&quot;Digite seu instagram&quot;)
+console.log (&quot;O seu nome é ?&quot;, nome,&quot;O seu vsco é ?&quot;, vsco, &quot;O seu instagram é ?&quot;, instagram,
+&quot;Correto? bem vindo ao site&quot;)
